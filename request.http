@@ -1,0 +1,29 @@
+POST http://localhost:4002/products
+Content-Type: application/json
+
+{
+    "name" : "Iphone 12",
+    "price": 8500
+}
+
+
+###
+
+GET http://localhost:4002/products
+
+
+###
+GET http://localhost:4002/products/42a3c1f10391e9bfc5cd6c66f59af5aed6f4b700
+
+###
+PUT http://localhost:4002/products/f0646a8572100d8483c21b8c6ed8a44482cbd9e0
+Content-Type: application/json
+
+{
+    "name" : "Iphone 13",
+    "price": 8500
+}
+
+
+###
+DELETE http://localhost:4002/products/d27e2631f7da4630ed783b673c72664e9b233f4e
